@@ -16,7 +16,7 @@ Key goals:
 
 ---
 
-**[➡️Download Dashboard](https://drive.google.com/file/d/1izSYV258PFn_5-LdebCqVGHGIGO_fNWG/view?usp=sharing)**
+**[🌐Download Live Dashboard](https://drive.google.com/file/d/1izSYV258PFn_5-LdebCqVGHGIGO_fNWG/view?usp=sharing)**
 
 The final dashboard is fully interactive, allowing for cross-filtering by gender, occupation, and region. It includes:
 * **Intersectional analysis visualizations** showing how biases multiply
@@ -24,7 +24,7 @@ The final dashboard is fully interactive, allowing for cross-filtering by gender
 * **Statistical trend indicators** with significance markers
 * **Trajectory analysis** showing which fields are improving vs frozen
 
-**[Dashboard PNG](visualization.png)**
+**[➡️Dashboard PNG](visualization.png)**
 
 ---
 
