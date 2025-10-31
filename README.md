@@ -306,19 +306,10 @@ wikipedia-representation-gaps/
 ├── conf/
 │   └── project.json              # Project configuration
 ├── data/
-│   ├── raw/
-│   │   └── seed_enwiki_*.csv     # Initial + monthly seed files
-│   ├── processed/
-│   │   ├── tmp_normalized/
-│   │   │   └── normalized_chunk_*.csv  # Chunked normalized data
-│   │   └── df_for_charts.csv     # Final aggregated dataset
-│   ├── entities/
-│   │   └── entities.csv          # Incremental: pageid → QID + properties
-│   ├── events/
-│   │   └── creations.csv         # Incremental: creation timestamps
-│   ├── cache/
-│   │   └── id_labels.csv         # Wikidata ID → label cache
-│   └── checkpoints.json          # Refresh pipeline checkpoint
+│   ├── baselines
+│   ├── entities
+│   ├── events
+│   └── statistical_analysis
 ├── notebooks/
 │   ├── 00_project_setup.ipynb
 │   ├── 01_api_seed.ipynb
@@ -332,12 +323,9 @@ wikipedia-representation-gaps/
 │   ├── refresh_step_1.py
 │   ├── bootstrap_to_original_artifacts.py
 │   └── monthly_refresh.py
-├── outputs/
-│   ├── statistical_analysis/      # HHI, LQ, changepoints
-│   ├── intersectional_analysis/   # Odds ratios, cohorts
-│   └── visualizations/            # Chart outputs
+├── visualization                  # Static Chart outputs
 ├── representation_gaps.md         # Full analysis report
-└── README.md                      # This file
+└── README.md                      
 ```
 
 ---
