@@ -13,7 +13,7 @@ The goal is not just to detect **representation gaps** but to diagnose their str
 
 ## 2. Gender Representation
 
-![Gender Distribution](C:/Users/drrahman/Downloads/Gender%20Distribution.png)
+![Gender Distribution](visualization/Gender_Distribution.png)
 
 Biographical coverage remains overwhelmingly **male-dominated**:
 * **Male:** 68.6 %
@@ -22,7 +22,7 @@ Biographical coverage remains overwhelmingly **male-dominated**:
 
 This asymmetry is not random; it is a direct reflection of Wikipedia's core **"notability" policies**, which often prioritize achievements in fields with historically high male participation. The availability of **"reliable sources"**—a prerequisite for any article—is itself skewed, mirroring historical and media biases that have favored documenting the careers of men.
 
-![Gender Representation Over Time](C:/Users/drrahman/Downloads/Gender%20Representation%20Over%20Time%20(Filterable%20by%20Continent).png)
+![Gender Representation Over Time](visualization/Gender_Representation_Over_Time.png)
 
 A modest improvement since 2015 is visible. Between 2015 and 2025, the male share declined from ≈ 72% to 65% (a 7 **percentage point**, or **pp**, drop), which was almost entirely absorbed by a corresponding rise in the female share from ≈ 28% to 34%. (A percentage point is the simple arithmetic difference between two percentages; a drop from 72% to 65% is a 7pp change). Non-binary representation, while still below 1%, has tripled since 2018.
 
@@ -83,13 +83,13 @@ Hillary Clinton's historic 2016 presidential run coincided with the start of our
 
 ## 4. Occupational Composition and Gender Gaps
 
-![Occupation Totals](C:/Users/drrahman/Downloads/Which%20Occupation%20Groups%20have%20the%20most%20Biographies.png)
+![Occupation Totals](visualization/Which_Occupation_Groups_have_the_most_Biographies.png)
 
 Wikipedia biographies are concentrated in a few high-visibility fields. **Sports, Arts & Culture, Politics & Law, and STEM & Academia** together account for ~98% of all entries, a distribution that has remained virtually unchanged for a decade. This concentration itself is a form of bias, prioritizing public-facing figures over other vital professions.
 
 Breaking this down by gender reveals field-specific trends:
 
-![Occupation Trends by Gender](C:/Users/drrahman/Downloads/Yearly%20Trends%20for%20Each%20Occupation%20Group,%20by%20Gender.png)
+![Occupation Trends by Gender](visualization/Yearly_Trends_for_Each_Occupation_Group_by_Gender.png)
 
 ### Key Gender Deltas (≈ 2025)
 | Occupation Group | Male % | Female % | Δ (M–F pp) | Change in Gap since 2015 |
@@ -109,7 +109,7 @@ Conversely, the gaps in **Military** and **Religion** are effectively static, re
 
 ### Trajectory Analysis: Where Progress Happens—and Where It Doesn't
 
-New regression analysis of 2015-2025 trends reveals which occupational gaps are closing versus frozen:
+Regression analysis of 2015-2025 trends reveals which occupational gaps are closing versus frozen:
 
 **Fields with measurable improvement:**
 - **Politics & Law (female)**: +1.95 pp/year — the fastest-improving major field
@@ -141,7 +141,7 @@ The common thread: Wikipedia treats the *outcomes* of historical gender discrimi
 
 ## 5. Geographic Representation
 
-![Continental Distribution](C:/Users/drrahman/Downloads/Who%20Gets%20Covered%20Continental%20Breakdown%20of%20Biographies.png)
+![Continental Distribution](visualization/Continental_Biography_Distribution_by_Year.png)
 
 Wikipedia's geography is stark:
 * **Europe + North America:** ≈ 60 %
@@ -153,7 +153,7 @@ This geographic bias **compounds the gender gap**. A female subject from an unde
 
 ### Intersectional Compounding: Quantifying the "Double Gap"
 
-New intersectional analysis reveals how geographic and gender biases multiply rather than simply add:
+Intersectional analysis reveals how geographic and gender biases multiply rather than simply add:
 
 **The privilege gradient**: 
 - Male European subjects = baseline (1.0× likelihood)
@@ -172,6 +172,8 @@ The result is a compounding marginalization: women from the Global South don't j
 
 The US dominates biographical coverage (19.6% of all articles), but American women face a double bind:
 
+![Top Countries](visualization/What_are_the_Top_10_Countries_with_the_most_Biographies.png)
+
 1. **Domestic bias**: American culture's own gender hierarchies (pay gaps, political underrepresentation, "likability" penalties for women leaders) mean fewer women reach the visibility threshold for Wikipedia coverage. The 2016 and 2020 elections showed that even women reaching the highest levels of American politics (Clinton's nomination, Harris's vice presidency) face intense scrutiny and media negativity that their male counterparts don't—resulting in fewer "positive" reliable sources.
 
 2. **Export of bias**: As the largest Wikipedia language community, English Wikipedia's American-centric notability standards become global gatekeepers. A female Indian scientist must meet American media's definition of "importance"—a standard that already undervalues women. If *The New York Times* or *BBC* don't cover her work, she likely won't meet notability criteria, regardless of her impact in India.
@@ -180,7 +182,7 @@ This is cultural imperialism compounding gender bias: America exports its own ch
 
 To visualize this proportional bias, a *representation-gap* index was computed (Biography % – Population %). This "pp" value shows how many percentage points a continent's share of biographies is above (a positive value) or below (a negative value) its share of the world population.
 
-![Continent Gap Chart](C:/Users/drrahman/Downloads/Where%20Wikipedia%20Representation%20Falls%20Short%20Continent-Level%20Gaps%20(2015–2025).png)
+![Continent Gap Chart](visualization/Where_Wikipedia_Representation_Falls_Short_ContinentLevel_Gaps.png)
 
 ### Continental Gap Highlights
 * **Europe:** Consistently **+20 → +23 pp over-represented**; this gap has barely changed.
@@ -213,7 +215,7 @@ These precise multipliers formalize what the narrative describes as "American ex
 
 ## 6. Temporal Growth of Wikipedia Biographies
 
-![Yearly Totals](C:/Users/drrahman/Downloads/New%20Biographies%20Created%20per%20Year.png)
+![Yearly Totals](visualization/New_Biographies_Created_per_Year.png)
 
 The most critical analytical finding comes from the temporal chart. Total new biographies rose steadily from ≈51k (2015) to a peak of 60k (2020), followed by a steep post-pandemic decline and subsequent plateau (–45%).
 
