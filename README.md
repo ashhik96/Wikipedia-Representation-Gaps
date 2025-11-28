@@ -27,7 +27,7 @@ The final dashboard is fully interactive, allowing for cross-filtering by gender
 *(Update with dashboard preview image and live link once hosted)*
 
 **[➡️ View the Interactive Dashboard Live]()**
-![Dahboard Preview](Visualization.png)
+![Dashboard Preview](Visualization.png)
 
 ---
 
@@ -403,5 +403,6 @@ This project is released under the MIT License. Data from Wikipedia and Wikidata
 **Last Updated:** October 2025  
 **Project Status:** Active — Monthly refreshes ongoing  
 **Contact:** [Your contact information]
+
 
 
