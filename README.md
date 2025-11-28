@@ -24,9 +24,8 @@ The final dashboard is fully interactive, allowing for cross-filtering by gender
 * **Statistical trend indicators** with significance markers
 * **Trajectory analysis** showing which fields are improving vs frozen
 
-*(Update with dashboard preview image and live link once hosted)*
-
 **[➡️ View the Interactive Dashboard Live]()**
+
 ![Dashboard Preview](Visualization.png)
 
 ---
@@ -403,6 +402,7 @@ This project is released under the MIT License. Data from Wikipedia and Wikidata
 **Last Updated:** October 2025  
 **Project Status:** Active — Monthly refreshes ongoing  
 **Contact:** [Your contact information]
+
 
 
 
